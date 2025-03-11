@@ -478,7 +478,125 @@ body {
     background-color: #5A4632;
 }
 
-/* FOOTER */
+.newsletter {
+    background-color: #EAD7C2;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    border-bottom: 3px solid #C3A57B;
+}
+
+.newsletter-container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-content {
+    text-align: left;
+    max-width: 50%;
+}
+
+.newsletter-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4C3B27;
+}
+
+.newsletter-content p {
+    font-size: 14px;
+    color: #5A4632;
+}
+
+.newsletter-form-container {
+    text-align: right;
+    max-width: 50%;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.newsletter-form input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #C3A57B;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.newsletter-form button {
+    background-color: #9D6958;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #814D3F;
+}
+
+.newsletter-policy {
+    font-size: 12px;
+    color: #5A4632;
+    margin-top: 8px;
+}
+
+.newsletter-policy a {
+    color: #9D6958;
+    text-decoration: none;
+}
+
+.newsletter-policy a:hover {
+    text-decoration: underline;
+}
+
+.footer-links-container {
+    background-color: #EAD7C2;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4C3B27;
+    margin-bottom: 12px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 6px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5A4632;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #9D6958;
+}
+
 .footer {
     background-color: #fff;
     padding: 10px 20px;
