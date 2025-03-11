@@ -477,3 +477,38 @@ body {
 .dot.active {
     background-color: #5A4632;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4C3B27;
+}
+
+.footer-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #666;
+}
+
