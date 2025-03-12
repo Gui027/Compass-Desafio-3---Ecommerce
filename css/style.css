@@ -113,18 +113,50 @@ body {
     font-weight: bold;
 }
 
-.banner img {
-    width: 100%;
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.offer-banner {
-    position: absolute;
-    background: white;
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: bold;
+.banner img {
+    width: 100%;
+    display: block;
 }
+
+.offer-banner1, .offer-banner2 {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.offer-banner1 {
+    background: #fafafa;
+    left: 15%;
+    border-radius: 0px 0px 0px 60px;
+    border-bottom: 2px solid #BAA370;
+    border-left: 2px solid #BAA370;
+    border-right: 2px solid #BAA370;
+    padding: 20px 70px;
+    font-size: 24px;
+    color: #29180F;
+}
+
+.offer-banner2 {
+    background: #BF8B70;
+    left: 42%;
+    border-radius: 0px 0px 50px 60px;
+    border: 2px solid #BAA370;
+    color: white;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
 
 .section-2 {
     text-align: center;
