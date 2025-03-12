@@ -10,7 +10,7 @@ body {
 }
 
 .top-bar {
-    background-color: #f5e1d5;
+    background-color: #F0DACD;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -23,8 +23,10 @@ body {
 
 .top-bar a {
     text-decoration: none;
-    color: #4C3B27;
+    color: #000000D1;
     padding: 0 60px;
+    font-family: serif;
+    font-weight: 400;
 }
 
 .navbar {
