@@ -16,34 +16,40 @@
     </div>
 
    <!-- MENU -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="assets/images/logo-bear.png" alt="Teddy Shop">
-                <div class="logo-text">
-                    <span>Teddy</span>
-                    <span>Shop</span>
-                </div>
+   <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo-bear.png" alt="Teddy Shop">
+            <div class="logo-text">
+                <span>Teddy</span>
+                <span>Shop</span>
             </div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li class="dropdown">
-                    <a href="#">Categorie &#9662;</a>
-                </li>
-                <li><a href="#">Novità</a></li>
-                <li><a href="#">Marchi</a></li>
-                <li><a href="#">Carte regalo</a></li>
-                <li><a href="#">Chi siamo</a></li>
-            </ul>
-            <div class="icons">
-                <a href="#"><img src="assets/icons/search.png" alt="search"></a>
-                <a href="#"><img src="assets/icons/user.png" alt="perfil"></a>
-                <a href="#"><img src="assets/icons/heart.png" alt="favorite"></a>
-                <a href="#"><img src="assets/icons/shopping-bag.png" alt="cart"></a>
-                <a href="#" class="btn-top">Acquista ora</a>
-            </div>
-        </nav>
-    </header>
+        </div>
+        <!-- Botão Hamburger -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Categorie &#9662;</a>
+            </li>
+            <li><a href="#">Novità</a></li>
+            <li><a href="#">Marchi</a></li>
+            <li><a href="#">Carte regalo</a></li>
+            <li><a href="#">Chi siamo</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><img src="assets/icons/search.png" alt="search"></a>
+            <a href="#"><img src="assets/icons/user.png" alt="perfil"></a>
+            <a href="#"><img src="assets/icons/heart.png" alt="favorite"></a>
+            <a href="#"><img src="assets/icons/shopping-bag.png" alt="cart"></a>
+            <a href="#" class="btn-top">Acquista ora</a>
+        </div>
+    </nav>
+</header>
 
     <!-- SECTION 1 -->
     <section class="banner">
@@ -57,7 +63,7 @@
     </section>
 
     <!-- SECTION 2 -->
-     <section class="section-2">
+    <section class="section-2">
         <h2>Esplora E Trova Il Tuo Preferito Su TeddyShop</h2>
         <span class="section-2-text">
         "Siamo felici di presentare la nostra varietà di nuovi personaggi di peluche! 
@@ -82,9 +88,9 @@
                 <p>In Questa collezione troverai peluche di animali selvatici per tutti gli spiriti avventurosi!</p>
             </div>
         </div>
-     </section>
+    </section>
 
-     <!-- SECTION 3 -->
+    <!-- SECTION 3 -->
     <section class="section-3">
         <div class="text-section-3">
             <img src="assets/images/flower.png" alt="Wild Adventures">
@@ -365,5 +371,8 @@
             <p class="footer-text">© 2023 TeddyShop. Tutti i diritti riservati.</p>
         </div>
     </footer>
+
+    <script src="js/menu.js"></script>
+
 </body>
 </html>
